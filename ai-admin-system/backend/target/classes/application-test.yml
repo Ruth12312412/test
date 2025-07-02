@@ -1,0 +1,6 @@
+server:
+  port: 12001
+
+spring:
+  application:
+    name: ai-admin-system
