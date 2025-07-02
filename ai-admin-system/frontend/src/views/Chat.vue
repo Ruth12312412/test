@@ -72,7 +72,7 @@
                   <el-icon><User /></el-icon>
                 </el-avatar>
                 <el-avatar v-else :size="32" class="ai-avatar">
-                  <el-icon><Robot /></el-icon>
+                  <el-icon><Avatar /></el-icon>
                 </el-avatar>
               </div>
               
@@ -95,7 +95,7 @@
             <div v-if="isLoading" class="message-item assistant">
               <div class="message-avatar">
                 <el-avatar :size="32" class="ai-avatar">
-                  <el-icon><Robot /></el-icon>
+                  <el-icon><Avatar /></el-icon>
                 </el-avatar>
               </div>
               <div class="message-content">
@@ -167,7 +167,7 @@ import {
   Delete,
   Download,
   User,
-  Robot,
+  Avatar,
   CopyDocument,
   Paperclip,
   Picture,
