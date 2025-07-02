@@ -58,6 +58,12 @@ const router = createRouter({
           name: 'Statistics',
           component: () => import('@/views/Statistics.vue'),
           meta: { title: '统计分析', icon: 'DataAnalysis' }
+        },
+        {
+          path: '/speech',
+          name: 'Speech',
+          component: () => import('@/views/Speech.vue'),
+          meta: { title: '语音服务', icon: 'Microphone' }
         }
       ]
     }

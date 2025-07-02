@@ -14,7 +14,7 @@ COPY frontend/ ./
 RUN npm run build
 
 # 阶段2: 构建后端
-FROM maven:3.8.6-openjdk-17 AS backend-builder
+FROM maven:3.9.4-openjdk-17 AS backend-builder
 
 WORKDIR /app/backend
 
